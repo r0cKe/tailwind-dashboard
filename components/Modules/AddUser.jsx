@@ -1,13 +1,13 @@
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import ModuleContainer from "./ModuleContainer";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
 import { setUsers } from "@/redux/features/user/usersSlice";
+import { userRows as users } from "@/utils/data";
 
 const AddUser = ({ slug, columns, reducer }) => {
   const [error, setError] = useState(false);
   const dispatch = useDispatch();
-  const users = useSelector((state) => state.usersReducer.users);
   const [inputValues, setInputValues] = useState({
     id: users?.length + 1,
     img: "",
