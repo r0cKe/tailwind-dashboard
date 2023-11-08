@@ -22,7 +22,10 @@ export default function Home() {
           name="description"
           content="Dasboard made using Next and TailwindCss"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main

@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
         <div className="flex gap-2">
           <UserCircleIcon className="pointer-icon" />
-          Ritik
+          Rocket
         </div>
         <Cog6ToothIcon className="pointer-icon hidden lg:inline-block" />
         <Bars3Icon

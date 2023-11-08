@@ -12,7 +12,7 @@
 
 @layer components {
   .box {
-    @apply p-5 rounded-lg border border-dark;
+    @apply w-full p-5 rounded-lg border border-dark;
   }
   .icon {
     @apply w-6 h-6;
